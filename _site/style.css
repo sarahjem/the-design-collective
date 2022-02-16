@@ -179,6 +179,10 @@ footer a:hover {
     border-radius: 100%;
 }
 
+.landscape {
+    padding-bottom: 60%;
+}
+
 .bg-plant {
     background-image: url('/images/plant.jpg');
     background-position: 50% 43%;
