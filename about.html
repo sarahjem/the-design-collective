@@ -33,7 +33,7 @@ about-video-id: undefined
 <section class="padded">
     <div class="capped-width">
 
-    {% for person in page.team %}
+    {% for person in page.team limit: 2 %}
 
         <div class="grid flex-flip-alternate">
             <div class="col-5 padded-2">

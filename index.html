@@ -110,9 +110,9 @@ grid-right" id="services">
 <section class="bg-rust padded projects" id="projects">
     <h2 class="center"> Recent Projects </h2>
 
-    {% for project in site.projects %}
+    {% for project in site.projects limit: 2 %}
 
-    <div class="grid">
+    <div class="grid flex-flip-alternate">
     
         <div class="col-5_sm-12-middle padded">
             <h3> {{ project.title }} </h3>
