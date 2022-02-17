@@ -202,6 +202,48 @@ footer a:hover {
     background-image: url('/images/mockup.jpg');
 }
 
+.right-arrow {
+    max-width: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+
+
+/* Contact Form */
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #a2745c;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input: focus,
+form textarea: focus {
+  border-color: #9b9b81;
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+form label{
+  margin-top: 1rem;
+  display: block;
+  color: #a2745c;
+  font-weight: bold;
+}
+
+form .button {
+    border: 2px solid #a2745c;
+    background: none;
+    color: #a2745c;
+}
+
 /* Resposive Video */
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
